@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // import './index.css';
-import App from './components/app/app';
+// import App from './components/app/app';
+import MostStarRepo from './components/most-start/most-start'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
-    <App />,
+    <MostStarRepo />,
   document.getElementById('root')
 );
 
